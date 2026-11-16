@@ -151,7 +151,7 @@ export const TrackRow = memo(function TrackRow({
       {/* álbum */}
       <div className="flex min-w-0 flex-col">
         <span className="truncate-1 text-[12.5px] text-zinc-400">{track.album}</span>
-        <span className="text-[10.5px] text-zinc-600">
+        <span className="truncate-1 text-[10.5px] text-zinc-600">
           {track.year ?? '—'}
           {track.genre ? ` · ${track.genre}` : ''}
         </span>
